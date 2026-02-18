@@ -41,4 +41,4 @@ def create_account(id_no, name, password ):
         json.dump(account, file, indent = 4)
     print(f"Account created successfully!")
     return account
-create_account(id_no="2345678", name="Peter Mwangi", password="patrilance15")
+# create_account(id_no="2345678", name="Peter Mwangi", password="patrilance15")

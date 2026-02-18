@@ -31,3 +31,459 @@
     Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
     ---------------------------------
     
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 11:20:13
+    Function: get_account
+    Time Taken: 0.0001800060272216797 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 11:20:13
+    Function: create_account
+    Time Taken: 0.0003650188446044922 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 15:24:27
+    Function: get_account
+    Time Taken: 0.00036978721618652344 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 15:24:27
+    Function: create_account
+    Time Taken: 0.002053976058959961 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:28:17
+    Function: get_account
+    Time Taken: 0.0001399517059326172 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:28:17
+    Function: create_account
+    Time Taken: 0.0005779266357421875 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:28:42
+    Function: get_account
+    Time Taken: 0.0008900165557861328 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:30:15
+    Function: get_account
+    Time Taken: 6.818771362304688e-05 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:30:15
+    Function: create_account
+    Time Taken: 0.0007390975952148438 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:30:29
+    Function: get_account
+    Time Taken: 0.0009453296661376953 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:30:43
+    Function: get_account
+    Time Taken: 0.0001773834228515625 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:30:43
+    Function: create_account
+    Time Taken: 0.00036525726318359375 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:31:00
+    Function: get_account
+    Time Taken: 0.0006241798400878906 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:31:00
+    Function: create_account
+    Time Taken: 0.0011017322540283203 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:31:30
+    Function: get_account
+    Time Taken: 0.001848459243774414 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:31:30
+    Function: create_account
+    Time Taken: 0.0028405189514160156 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:31:39
+    Function: get_account
+    Time Taken: 0.0006427764892578125 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:31:30
+    Function: login
+    Time Taken: 16.56023621559143 seconds
+    Inputs: args=(), kwargs={}
+    Result: True
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:33:24
+    Function: get_account
+    Time Taken: 0.00022268295288085938 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:33:24
+    Function: create_account
+    Time Taken: 0.0006496906280517578 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:33:31
+    Function: get_account
+    Time Taken: 0.00029587745666503906 seconds
+    Inputs: args=('4567799',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:33:50
+    Function: get_account
+    Time Taken: 0.0007951259613037109 seconds
+    Inputs: args=('677988',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:34:05
+    Function: get_account
+    Time Taken: 0.0002560615539550781 seconds
+    Inputs: args=('776865',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:34:31
+    Function: get_account
+    Time Taken: 0.0002627372741699219 seconds
+    Inputs: args=('789000',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:35:46
+    Function: get_account
+    Time Taken: 0.0006401538848876953 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:34:38
+    Function: login
+    Time Taken: 86.3740439414978 seconds
+    Inputs: args=(), kwargs={'attempts': 0, 'account_attempts': 9}
+    Result: True
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:34:10
+    Function: login
+    Time Taken: 114.83275842666626 seconds
+    Inputs: args=(), kwargs={'attempts': 0, 'account_attempts': 7}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:33:53
+    Function: login
+    Time Taken: 131.37724661827087 seconds
+    Inputs: args=(), kwargs={'attempts': 0, 'account_attempts': 5}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:33:32
+    Function: login
+    Time Taken: 152.2136697769165 seconds
+    Inputs: args=(), kwargs={'attempts': 0, 'account_attempts': 3}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:33:24
+    Function: login
+    Time Taken: 160.8513777256012 seconds
+    Inputs: args=(), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:37:06
+    Function: get_account
+    Time Taken: 0.0002269744873046875 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:37:06
+    Function: create_account
+    Time Taken: 0.003031492233276367 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:37:17
+    Function: get_account
+    Time Taken: 0.0006113052368164062 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:47:54
+    Function: get_account
+    Time Taken: 6.604194641113281e-05 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:47:54
+    Function: create_account
+    Time Taken: 0.0021915435791015625 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:48:37
+    Function: get_account
+    Time Taken: 0.000278472900390625 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:53:29
+    Function: get_account
+    Time Taken: 0.0007355213165283203 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:59:24
+    Function: get_account
+    Time Taken: 0.0006823539733886719 seconds
+    Inputs: args=("    Inputs: args=('2345678',), kwargs={}",), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:59:47
+    Function: get_account
+    Time Taken: 0.0013728141784667969 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:59:25
+    Function: login
+    Time Taken: 40.55584955215454 seconds
+    Inputs: args=(), kwargs={'attempts': 0, 'account_attempts': 3}
+    Result: True
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 16:59:09
+    Function: login
+    Time Taken: 55.95510411262512 seconds
+    Inputs: args=(), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:01:02
+    Function: get_account
+    Time Taken: 0.0009410381317138672 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:06:18
+    Function: get_account
+    Time Taken: 0.0007321834564208984 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:06:27
+    Function: get_account
+    Time Taken: 0.0008187294006347656 seconds
+    Inputs: args=('gghfg',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:06:40
+    Function: get_account
+    Time Taken: 0.0009610652923583984 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:06:54
+    Function: get_account
+    Time Taken: 0.0006477832794189453 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:07:53
+    Function: get_account
+    Time Taken: 0.0012629032135009766 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:08:00
+    Function: get_account
+    Time Taken: 0.0007054805755615234 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:08:09
+    Function: get_account
+    Time Taken: 0.0008046627044677734 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:08:19
+    Function: get_account
+    Time Taken: 0.0007185935974121094 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:08:22
+    Function: login
+    Time Taken: 0.00018715858459472656 seconds
+    Inputs: args=(), kwargs={'attempts': 4}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:08:12
+    Function: login
+    Time Taken: 9.858452558517456 seconds
+    Inputs: args=(), kwargs={'attempts': 3}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:08:05
+    Function: login
+    Time Taken: 16.657313108444214 seconds
+    Inputs: args=(), kwargs={'attempts': 2}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:07:56
+    Function: login
+    Time Taken: 25.437361001968384 seconds
+    Inputs: args=(), kwargs={'attempts': 1}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:07:46
+    Function: login
+    Time Taken: 35.375051498413086 seconds
+    Inputs: args=(), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:16:23
+    Function: get_account
+    Time Taken: 0.0003364086151123047 seconds
+    Inputs: args=('clear',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:16:31
+    Function: get_account
+    Time Taken: 0.00025177001953125 seconds
+    Inputs: args=('hhhh',), kwargs={}
+    Result: None
+    ---------------------------------
+    
