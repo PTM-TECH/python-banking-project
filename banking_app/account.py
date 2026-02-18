@@ -2,7 +2,9 @@
 #eg. getting, updating accounts.
 import json
 import os,sys
+from decorators import log
 
+@log
 def get_account(id_no):
     filename = f"accounts/{id_no}.json"
     
@@ -12,17 +14,17 @@ def get_account(id_no):
     
     with open(filename, "r") as file:
         account=json.load(file)
-        print(f"Account details: {account}")
+        print(account)
     return account
 
 # get_account(id_no="223344")
-
+@log
 def create_account(id_no, name, password ):
     
     #validations, id_no, name
     if get_account(id_no):
-        print("Account already exists")
-        sys.exit()
+        print(f"Account with idno {id_no} already exists")
+        return None
 
     account = {
         "account_no": id_no,
@@ -38,7 +40,5 @@ def create_account(id_no, name, password ):
     with open(filename, "w") as file:
         json.dump(account, file, indent = 4)
     print(f"Account created successfully!")
-create_account(id_no="222333444", name="Patrick Mutua", password="patrilance15")
-
-
-    
+    return account
+create_account(id_no="2345678", name="Peter Mwangi", password="patrilance15")

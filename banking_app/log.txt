@@ -1,0 +1,33 @@
+
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 11:07:33
+    Function: get_account
+    Time Taken: 0.0018754005432128906 seconds
+    Inputs: args=('222333444',), kwargs={}
+    Result: {'account_no': '222333444', 'id_no': '222333444', 'name': 'Patrick Mutua', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 11:07:33
+    Function: create_account
+    Time Taken: 0.0021598339080810547 seconds
+    Inputs: args=(), kwargs={'id_no': '222333444', 'name': 'Patrick Mutua', 'password': 'patrilance15'}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 11:09:18
+    Function: get_account
+    Time Taken: 6.771087646484375e-05 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 11:09:18
+    Function: create_account
+    Time Taken: 0.00044727325439453125 seconds
+    Inputs: args=(), kwargs={'id_no': '2345678', 'name': 'Peter Mwangi', 'password': 'patrilance15'}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    

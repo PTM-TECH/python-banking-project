@@ -1,0 +1,9 @@
+
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 11:07:21
+    Function: get_account
+    Time Taken: 6.175041198730469e-05 seconds
+    Inputs: args=('222333444',), kwargs={}
+    Result: None
+    ---------------------------------
+    
