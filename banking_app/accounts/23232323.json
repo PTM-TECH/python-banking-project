@@ -1,0 +1,72 @@
+{
+    "account_no": "23232323",
+    "id_no": "23232323",
+    "name": "Patrick Mutua",
+    "transaction_history": [
+        {
+            "transaction_type": "Deposit",
+            "timestamp": "2026-02-19 10:25:46",
+            "amount": 50000.0,
+            "balance": 0,
+            "new_balance": 50000.0
+        },
+        {
+            "transaction_type": "Deposit",
+            "timestamp": "2026-02-19 10:44:00",
+            "amount": 400000.0,
+            "balance": 50000.0,
+            "new_balance": 450000.0
+        },
+        {
+            "transaction_type": "Deposit",
+            "timestamp": "2026-02-19 11:34:41",
+            "amount": 34.0,
+            "balance": 450000.0,
+            "new_balance": 450034.0
+        },
+        {
+            "transaction_type": "Withdrawal",
+            "timestamp": "2026-02-19 15:20:10",
+            "amount": 20000.0,
+            "balance": 450034.0,
+            "new_balance": 430034.0
+        },
+        {
+            "transaction_type": "Withdrawal",
+            "timestamp": "2026-02-19 15:35:20",
+            "amount": 50000000000000.0,
+            "balance": 430034.0,
+            "new_balance": -49999999569966.0
+        },
+        {
+            "transaction_type": "Withdrawal",
+            "timestamp": "2026-02-19 15:38:04",
+            "amount": 5.0,
+            "balance": -49999999569966.0,
+            "new_balance": -49999999569971.0
+        },
+        {
+            "transaction_type": "Deposit",
+            "timestamp": "2026-02-19 15:42:42",
+            "amount": 49999999569971.0,
+            "balance": -49999999569971.0,
+            "new_balance": 0.0
+        },
+        {
+            "transaction_type": "Deposit",
+            "timestamp": "2026-02-19 15:42:59",
+            "amount": 5000.0,
+            "balance": 0.0,
+            "new_balance": 5000.0
+        },
+        {
+            "transaction_type": "Withdrawal",
+            "timestamp": "2026-02-19 15:45:05",
+            "amount": 200.0,
+            "balance": 5000.0,
+            "new_balance": 4800.0
+        }
+    ],
+    "balance": 4800.0,
+    "password": "12121212"
+}

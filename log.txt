@@ -15,3 +15,51 @@
     Result: None
     ---------------------------------
     
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:22:56
+    Function: get_account
+    Time Taken: 0.00032901763916015625 seconds
+    Inputs: args=('clear',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:23:01
+    Function: get_account
+    Time Taken: 0.00010538101196289062 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:23:15
+    Function: get_account
+    Time Taken: 0.0002155303955078125 seconds
+    Inputs: args=("    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}",), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:24:16
+    Function: get_account
+    Time Taken: 0.0006589889526367188 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:24:30
+    Function: get_account
+    Time Taken: 0.00011086463928222656 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:24:44
+    Function: get_account
+    Time Taken: 0.0015878677368164062 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: None
+    ---------------------------------
+    

@@ -487,3 +487,707 @@
     Result: None
     ---------------------------------
     
+    ---------------LOG---------------
+    Timestamp: 2026-02-18 17:24:31
+    Function: get_account
+    Time Taken: 0.0010890960693359375 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:25:20
+    Function: get_account
+    Time Taken: 0.0013928413391113281 seconds
+    Inputs: args=('2345678',), kwargs={}
+    Result: {'account_no': '2345678', 'id_no': '2345678', 'name': 'Peter Mwangi', 'transaction_history': [], 'balance': 0, 'password': 'patrilance15'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:48:20
+    Function: get_account
+    Time Taken: 0.00036072731018066406 seconds
+    Inputs: args=('222333',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:48:35
+    Function: get_account
+    Time Taken: 0.00022220611572265625 seconds
+    Inputs: args=('222333',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:48:35
+    Function: create_account
+    Time Taken: 0.0022537708282470703 seconds
+    Inputs: args=(), kwargs={'name': 'Patrick Mutua', 'password': '123456', 'id_no': '222333'}
+    Result: {'account_no': '222333', 'id_no': '222333', 'name': 'Patrick Mutua', 'transaction_history': [], 'balance': 0, 'password': '123456'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:49:54
+    Function: get_account
+    Time Taken: 0.0008146762847900391 seconds
+    Inputs: args=('23456',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:50:13
+    Function: get_account
+    Time Taken: 0.0001544952392578125 seconds
+    Inputs: args=('23456',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:50:13
+    Function: create_account
+    Time Taken: 0.0008852481842041016 seconds
+    Inputs: args=(), kwargs={'name': 'Patrick Tairo', 'password': '12345', 'id_no': '23456'}
+    Result: {'account_no': '23456', 'id_no': '23456', 'name': 'Patrick Tairo', 'transaction_history': [], 'balance': 0, 'password': '12345'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:49:48
+    Function: new_account
+    Time Taken: 25.643737077713013 seconds
+    Inputs: args=(), kwargs={}
+    Result: <function log.<locals>.wrapper at 0x724ea7721940>
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:51:08
+    Function: get_account
+    Time Taken: 0.0002715587615966797 seconds
+    Inputs: args=('23456',), kwargs={}
+    Result: {'account_no': '23456', 'id_no': '23456', 'name': 'Patrick Tairo', 'transaction_history': [], 'balance': 0, 'password': '12345'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:51:24
+    Function: get_account
+    Time Taken: 0.0003094673156738281 seconds
+    Inputs: args=('12345678',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:51:43
+    Function: get_account
+    Time Taken: 0.0001800060272216797 seconds
+    Inputs: args=('12345678',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:51:43
+    Function: create_account
+    Time Taken: 0.0012409687042236328 seconds
+    Inputs: args=(), kwargs={'name': 'Peter Muriuki', 'password': '232323', 'id_no': '12345678'}
+    Result: {'account_no': '12345678', 'id_no': '12345678', 'name': 'Peter Muriuki', 'transaction_history': [], 'balance': 0, 'password': '232323'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:51:10
+    Function: new_account
+    Time Taken: 32.85821986198425 seconds
+    Inputs: args=(), kwargs={'trials': 1}
+    Result: <function log.<locals>.wrapper at 0x7be820a1d940>
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:51:03
+    Function: new_account
+    Time Taken: 40.40208411216736 seconds
+    Inputs: args=(), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:53:18
+    Function: get_account
+    Time Taken: 0.00024390220642089844 seconds
+    Inputs: args=('343434',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:53:31
+    Function: get_account
+    Time Taken: 0.00016808509826660156 seconds
+    Inputs: args=('343434',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:53:31
+    Function: create_account
+    Time Taken: 0.0032792091369628906 seconds
+    Inputs: args=(), kwargs={'name': 'Bro Code', 'password': '23232323', 'id_no': '343434'}
+    Result: {'account_no': '343434', 'id_no': '343434', 'name': 'Bro Code', 'transaction_history': [], 'balance': 0, 'password': '23232323'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:53:13
+    Function: new_account
+    Time Taken: 18.093120574951172 seconds
+    Inputs: args=(), kwargs={}
+    Result: <function log.<locals>.wrapper at 0x70346c81d940>
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:53:57
+    Function: get_account
+    Time Taken: 0.00036406517028808594 seconds
+    Inputs: args=('323232',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:54:11
+    Function: get_account
+    Time Taken: 0.0001819133758544922 seconds
+    Inputs: args=('323232',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:54:11
+    Function: create_account
+    Time Taken: 0.0011396408081054688 seconds
+    Inputs: args=(), kwargs={'name': 'Peter Migwi', 'password': '121212', 'id_no': '323232'}
+    Result: {'account_no': '323232', 'id_no': '323232', 'name': 'Peter Migwi', 'transaction_history': [], 'balance': 0, 'password': '121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:53:49
+    Function: new_account
+    Time Taken: 22.157243728637695 seconds
+    Inputs: args=(), kwargs={}
+    Result: <function log.<locals>.wrapper at 0x77b6c0321940>
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:56:35
+    Function: get_account
+    Time Taken: 0.0004150867462158203 seconds
+    Inputs: args=('44444',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:56:53
+    Function: get_account
+    Time Taken: 0.00032258033752441406 seconds
+    Inputs: args=('44444',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:56:53
+    Function: create_account
+    Time Taken: 0.0011799335479736328 seconds
+    Inputs: args=(), kwargs={'name': 'Ken Ken', 'password': '343434', 'id_no': '44444'}
+    Result: {'account_no': '44444', 'id_no': '44444', 'name': 'Ken Ken', 'transaction_history': [], 'balance': 0, 'password': '343434'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:56:26
+    Function: new_account
+    Time Taken: 26.298483848571777 seconds
+    Inputs: args=(), kwargs={}
+    Result: <function log.<locals>.wrapper at 0x7c8007f220c0>
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:57:51
+    Function: get_account
+    Time Taken: 0.0002486705780029297 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:58:03
+    Function: get_account
+    Time Taken: 0.00018787384033203125 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:58:03
+    Function: create_account
+    Time Taken: 0.002075672149658203 seconds
+    Inputs: args=(), kwargs={'name': 'Patrick Mutua', 'password': '12121212', 'id_no': '23232323'}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [], 'balance': 0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 09:57:46
+    Function: new_account
+    Time Taken: 17.21255397796631 seconds
+    Inputs: args=(), kwargs={}
+    Result: <function log.<locals>.wrapper at 0x7ade1e41d940>
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:25:12
+    Function: get_account
+    Time Taken: 0.0002548694610595703 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [], 'balance': 0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:25:22
+    Function: get_account
+    Time Taken: 0.00019931793212890625 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [], 'balance': 0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:25:31
+    Function: get_account
+    Time Taken: 0.0003209114074707031 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [], 'balance': 0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:25:46
+    Function: update_account
+    Time Taken: 0.0037772655487060547 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}], 'balance': 50000.0, 'password': '12121212'}}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}], 'balance': 50000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:25:31
+    Function: deposit
+    Time Taken: 15.49666690826416 seconds
+    Inputs: args=({'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}], 'balance': 50000.0, 'password': '12121212'},), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}], 'balance': 50000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:26:56
+    Function: get_account
+    Time Taken: 0.0002048015594482422 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}], 'balance': 50000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:32:35
+    Function: get_account
+    Time Taken: 0.00021195411682128906 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}], 'balance': 50000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:35:12
+    Function: get_account
+    Time Taken: 0.0003027915954589844 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}], 'balance': 50000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:37:06
+    Function: get_account
+    Time Taken: 0.00019860267639160156 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}], 'balance': 50000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:43:36
+    Function: get_account
+    Time Taken: 0.00018715858459472656 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}], 'balance': 50000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:44:00
+    Function: update_account
+    Time Taken: 0.001787424087524414 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}], 'balance': 450000.0, 'password': '12121212'}}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}], 'balance': 450000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 10:43:36
+    Function: deposit
+    Time Taken: 23.943593978881836 seconds
+    Inputs: args=({'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}], 'balance': 450000.0, 'password': '12121212'},), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}], 'balance': 450000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 11:34:21
+    Function: get_account
+    Time Taken: 0.00031304359436035156 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}], 'balance': 450000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 11:34:36
+    Function: get_account
+    Time Taken: 0.0002300739288330078 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}], 'balance': 450000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 11:34:41
+    Function: update_account
+    Time Taken: 0.0015380382537841797 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}], 'balance': 450034.0, 'password': '12121212'}}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}], 'balance': 450034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 11:34:36
+    Function: deposit
+    Time Taken: 4.504400730133057 seconds
+    Inputs: args=({'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}], 'balance': 450034.0, 'password': '12121212'},), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}], 'balance': 450034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 11:34:49
+    Function: get_account
+    Time Taken: 0.00029206275939941406 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}], 'balance': 450034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:19:56
+    Function: get_account
+    Time Taken: 0.0002593994140625 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}], 'balance': 450034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:20:05
+    Function: get_account
+    Time Taken: 0.00025582313537597656 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}], 'balance': 450034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:20:10
+    Function: update_account
+    Time Taken: 0.0013005733489990234 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}], 'balance': 430034.0, 'password': '12121212'}}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}], 'balance': 430034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:20:05
+    Function: withdraw
+    Time Taken: 5.415146112442017 seconds
+    Inputs: args=({'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}], 'balance': 430034.0, 'password': '12121212'},), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}], 'balance': 430034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:20:19
+    Function: get_account
+    Time Taken: 0.00023937225341796875 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}], 'balance': 430034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:34:54
+    Function: get_account
+    Time Taken: 0.0006339550018310547 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}], 'balance': 430034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:35:01
+    Function: get_account
+    Time Taken: 0.00023818016052246094 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}], 'balance': 430034.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:35:20
+    Function: update_account
+    Time Taken: 0.00045943260192871094 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}], 'balance': -49999999569966.0, 'password': '12121212'}}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}], 'balance': -49999999569966.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:35:01
+    Function: withdraw
+    Time Taken: 19.18073296546936 seconds
+    Inputs: args=({'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}], 'balance': -49999999569966.0, 'password': '12121212'},), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}], 'balance': -49999999569966.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:35:26
+    Function: get_account
+    Time Taken: 0.00019621849060058594 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}], 'balance': -49999999569966.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:38:04
+    Function: update_account
+    Time Taken: 0.0018591880798339844 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}], 'balance': -49999999569971.0, 'password': '12121212'}}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}], 'balance': -49999999569971.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:35:26
+    Function: withdraw
+    Time Taken: 158.00474452972412 seconds
+    Inputs: args=({'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}], 'balance': -49999999569971.0, 'password': '12121212'},), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}], 'balance': -49999999569971.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:38:19
+    Function: get_account
+    Time Taken: 0.0002574920654296875 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}], 'balance': -49999999569971.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:42:29
+    Function: get_account
+    Time Taken: 0.0002574920654296875 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}], 'balance': -49999999569971.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:42:42
+    Function: update_account
+    Time Taken: 0.0015807151794433594 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}], 'balance': 0.0, 'password': '12121212'}}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}], 'balance': 0.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:42:29
+    Function: deposit
+    Time Taken: 13.098315715789795 seconds
+    Inputs: args=({'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}], 'balance': 0.0, 'password': '12121212'},), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}], 'balance': 0.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:42:52
+    Function: get_account
+    Time Taken: 0.00023746490478515625 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}], 'balance': 0.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:42:59
+    Function: update_account
+    Time Taken: 0.0020139217376708984 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '12121212'}}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:42:52
+    Function: deposit
+    Time Taken: 7.075776100158691 seconds
+    Inputs: args=({'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '12121212'},), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:43:15
+    Function: get_account
+    Time Taken: 0.0019481182098388672 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:45:05
+    Function: update_account
+    Time Taken: 0.00087738037109375 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:45:05', 'amount': 200.0, 'balance': 5000.0, 'new_balance': 4800.0}], 'balance': 4800.0, 'password': '12121212'}}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:45:05', 'amount': 200.0, 'balance': 5000.0, 'new_balance': 4800.0}], 'balance': 4800.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 15:43:15
+    Function: withdraw
+    Time Taken: 110.47894167900085 seconds
+    Inputs: args=({'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:45:05', 'amount': 200.0, 'balance': 5000.0, 'new_balance': 4800.0}], 'balance': 4800.0, 'password': '12121212'},), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:45:05', 'amount': 200.0, 'balance': 5000.0, 'new_balance': 4800.0}], 'balance': 4800.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:10:13
+    Function: get_account
+    Time Taken: 0.0007207393646240234 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:45:05', 'amount': 200.0, 'balance': 5000.0, 'new_balance': 4800.0}], 'balance': 4800.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:10:09
+    Function: login
+    Time Taken: 32.736562967300415 seconds
+    Inputs: args=(), kwargs={}
+    Result: True
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:12:17
+    Function: get_account
+    Time Taken: 0.0011191368103027344 seconds
+    Inputs: args=('23232323',), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:45:05', 'amount': 200.0, 'balance': 5000.0, 'new_balance': 4800.0}], 'balance': 4800.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:12:01
+    Function: login
+    Time Taken: 30.88359761238098 seconds
+    Inputs: args=(), kwargs={}
+    Result: {'account_no': '23232323', 'id_no': '23232323', 'name': 'Patrick Mutua', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:25:46', 'amount': 50000.0, 'balance': 0, 'new_balance': 50000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 10:44:00', 'amount': 400000.0, 'balance': 50000.0, 'new_balance': 450000.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:34:41', 'amount': 34.0, 'balance': 450000.0, 'new_balance': 450034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:20:10', 'amount': 20000.0, 'balance': 450034.0, 'new_balance': 430034.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:35:20', 'amount': 50000000000000.0, 'balance': 430034.0, 'new_balance': -49999999569966.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:38:04', 'amount': 5.0, 'balance': -49999999569966.0, 'new_balance': -49999999569971.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:42', 'amount': 49999999569971.0, 'balance': -49999999569971.0, 'new_balance': 0.0}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 15:42:59', 'amount': 5000.0, 'balance': 0.0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 15:45:05', 'amount': 200.0, 'balance': 5000.0, 'new_balance': 4800.0}], 'balance': 4800.0, 'password': '12121212'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:21:55
+    Function: get_account
+    Time Taken: 0.00019741058349609375 seconds
+    Inputs: args=('333333',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:22:05
+    Function: get_account
+    Time Taken: 0.00014662742614746094 seconds
+    Inputs: args=('333333',), kwargs={}
+    Result: None
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:22:05
+    Function: create_account
+    Time Taken: 0.0014290809631347656 seconds
+    Inputs: args=(), kwargs={'name': 'Peter', 'password': '444444', 'id_no': '333333'}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [], 'balance': 0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:21:50
+    Function: new_account
+    Time Taken: 15.588751316070557 seconds
+    Inputs: args=(), kwargs={}
+    Result: <function log.<locals>.wrapper at 0x759ce101d940>
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:22:16
+    Function: get_account
+    Time Taken: 0.0009264945983886719 seconds
+    Inputs: args=('333333',), kwargs={}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [], 'balance': 0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:22:05
+    Function: login
+    Time Taken: 16.896817684173584 seconds
+    Inputs: args=(), kwargs={}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [], 'balance': 0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:22:32
+    Function: update_account
+    Time Taken: 0.0009818077087402344 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '444444'}}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:22:27
+    Function: deposit
+    Time Taken: 5.053516387939453 seconds
+    Inputs: args=({'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '444444'},), kwargs={}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:22:43
+    Function: get_account
+    Time Taken: 0.0006072521209716797 seconds
+    Inputs: args=('333333',), kwargs={}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:22:40
+    Function: login
+    Time Taken: 6.871776819229126 seconds
+    Inputs: args=(), kwargs={}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}], 'balance': 5000.0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:23:08
+    Function: update_account
+    Time Taken: 0.0010647773742675781 seconds
+    Inputs: args=(), kwargs={'account': {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 16:23:08', 'amount': 4000.0, 'balance': 5000.0, 'new_balance': 1000.0}], 'balance': 1000.0, 'password': '444444'}}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 16:23:08', 'amount': 4000.0, 'balance': 5000.0, 'new_balance': 1000.0}], 'balance': 1000.0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:22:55
+    Function: withdraw
+    Time Taken: 12.550986528396606 seconds
+    Inputs: args=({'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 16:23:08', 'amount': 4000.0, 'balance': 5000.0, 'new_balance': 1000.0}], 'balance': 1000.0, 'password': '444444'},), kwargs={}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 16:23:08', 'amount': 4000.0, 'balance': 5000.0, 'new_balance': 1000.0}], 'balance': 1000.0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:23:16
+    Function: get_account
+    Time Taken: 0.0005724430084228516 seconds
+    Inputs: args=('333333',), kwargs={}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 16:23:08', 'amount': 4000.0, 'balance': 5000.0, 'new_balance': 1000.0}], 'balance': 1000.0, 'password': '444444'}
+    ---------------------------------
+    
+    ---------------LOG---------------
+    Timestamp: 2026-02-19 16:23:12
+    Function: login
+    Time Taken: 7.572369813919067 seconds
+    Inputs: args=(), kwargs={}
+    Result: {'account_no': '333333', 'id_no': '333333', 'name': 'Peter', 'transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:22:32', 'amount': 5000.0, 'balance': 0, 'new_balance': 5000.0}, {'transaction_type': 'Withdrawal', 'timestamp': '2026-02-19 16:23:08', 'amount': 4000.0, 'balance': 5000.0, 'new_balance': 1000.0}], 'balance': 1000.0, 'password': '444444'}
+    ---------------------------------
+    
